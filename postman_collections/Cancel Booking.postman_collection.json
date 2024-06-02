@@ -75,7 +75,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"id\": \"mosip.pre-registration.booking.book\",\r\n    \"request\": {\r\n        \"registration_center_id\": \"{{regCenterId}}\",\r\n        \"appointment_date\": \"{{dateReq}}\",\r\n        \"time_slot_from\": \"{{fromTime}}\",\r\n        \"time_slot_to\": \"{{toTime}}\",\r\n        \"pre_registration_id\": \"{{applicationId}}\"\r\n    },\r\n    \"version\": \"1.0\",\r\n    \"requesttime\": \"2024-05-28T10:04:17.231Z\"\r\n}",
+					"raw": "{\r\n    \"id\": \"mosip.pre-registration.booking.book\",\r\n    \"request\": {\r\n        \"registration_center_id\": \"{{regCenterId}}\",\r\n        \"appointment_date\": \"{{dateReq}}\",\r\n        \"time_slot_from\": \"{{fromTime}}\",\r\n        \"time_slot_to\": \"{{toTime}}\",\r\n        \"pre_registration_id\": \"{{applicationId}}\"\r\n    },\r\n    \"version\": \"1.0\",\r\n    \"requesttime\": \"{{time}}\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
